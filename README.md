@@ -20,5 +20,5 @@ Thomasville North/South & Ashland: x1=0, x2=43, y1=0, y2=1300
 Ramsey: x1=465, x2=488, y1=0, y2=703
 
 ### Return value
-The function will return two strings. The first one is start time, and the second one is end time.All strings aare in the correct time format: Month/Day/Year Hour:Minute:Second. If any string is incorrect, the function would change the string to "N/A".
+The function will return two strings. The first one is start time, and the second one is end time.All strings aare in the correct time format: Month/Day/Year Hour:Minute:Second. If both string are incorrect, the function would change the string to "N/A". If only one of the string is invalid, then the program would replace the incorrect value with a calculated the time using video time and the correct timestamp.
 For example, the possible format for return value: ('06/04/2021 11:27:17', '06/04/2021 11:27:24'), or ('N/A', 'N/A').
