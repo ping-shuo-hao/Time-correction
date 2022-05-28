@@ -21,4 +21,4 @@ Ramsey: x1=465, x2=488, y1=0, y2=703
 
 ### Return value
 The function will return two strings. The first one is start time, and the second one is end time.All strings aare in the correct time format: Month/Day/Year Hour:Minute:Second. If any string is incorrect, the function would change the string to "N/A".
-For example, the possible format for return value: ('06/04/2021 11:27:17', '06/04/2021 11:27:24'), or ('N/A', '06/04/2021 11:27:24') or ('06/04/2021 11:27:17', 'N/A') or ('N/A', 'N/A').
+For example, the possible format for return value: ('06/04/2021 11:27:17', '06/04/2021 11:27:24'), or ('N/A', 'N/A').
